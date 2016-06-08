@@ -1,9 +1,9 @@
 class ScheduleWorker
-  include Sidekiq::Worker  
+	include Sidekiq::Worker  
  
-  def perform(name) 
-	10.times do |count|
-    	puts "Meu nome é #{name} = #{count}"
-    end
-  end
+ 	def perform(name) 
+		10.times do |count|
+    		puts "Meu nome é #{name} = #{count}"
+		end
+  	end
 end

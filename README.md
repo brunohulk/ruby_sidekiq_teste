@@ -7,8 +7,12 @@ Executar job assíncrono
 http://localhost:3000/hello/perform/:name_param
 '''
 
+Executar job assíncrono
+'''
+http://localhost:3000/hello/schedule/:name_param
+'''
+
 '''
 bundle exec sidekiq
 '''
 
-Executar jobs assíncronos

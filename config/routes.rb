@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'hello/index'
 
   get 'hello/perform/:name' => 'hello#perform', as: :perform
+  get 'hello/schedule/:name' => 'hello#schedule', as: :schedule
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
